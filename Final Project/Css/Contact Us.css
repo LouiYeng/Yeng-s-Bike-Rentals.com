@@ -1,0 +1,193 @@
+body {
+  font-family: sans-serif;
+  margin-left: 20%;
+  background-color: rgb(37, 37, 37);color: orange;
+  
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.navbar {
+  overflow: hidden;
+  background-color:transparent;
+  margin-left: 15%;
+  position: fixed;
+
+}
+
+.navbar a {
+  float: inline-start;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 20em;
+  margin: 0;
+  text-shadow: #000;
+}
+.navbar a:hover{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.navbar a:active{
+  color: orange;
+  font-size: 27px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 25px; 
+  border: none;
+  outline: none;
+  color:white;
+  background-color: inherit;
+  padding: 20px 30px; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 20em;
+  margin: 0;
+  text-shadow: black;
+}
+.dropdown.dropbtn :hover{
+  text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: inherit;
+  background-color:rgb(120, 120, 120);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#head{
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+#links{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#links a{
+  margin-right: 50%;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+  font-style: italic;
+ font-family: monospace;
+}
+#left hr{
+  width: 400px;
+  margin-right: 60%;
+  
+}
+#contacts{
+  margin-left: 0px;
+  padding: 10px;
+}
+#contacts i{
+  padding: 10px;
+  font-size: larger;
+}
+#social{
+  margin-left: 450px;
+  padding-top: 50px;
+  font-size: x-large;
+}
+#social i{
+  padding: 10px;
+  font-size: larger;
+
+}
+#social a{
+  color:black;
+}
+#working{
+  margin-left: 30px;
+  padding: 10px;
+}
+#working i{
+  padding: 10px;
+  font-size: larger;
+}
+#right{
+  margin-left: 50px;
+  width: 500px;
+}
+#right fieldset{
+  border: none;
+  padding: 10px;
+}
+#right input{
+  margin: 20px;
+  padding: 20px;
+  border-color: lightslategray;
+  width: 400px;
+  border-radius: 5px;
+  display: inline;
+}
+#message input{
+  height: 00px; 
+}
+#right h3{
+  margin-left: 00px;
+  text-decoration: underline;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer{
+  background-color:black;
+  width: 100%;
+}
+footer p{
+  margin-left: 1000px;
+}
+footer ul li a{
+text-decoration: none;
+color: white;
+}
